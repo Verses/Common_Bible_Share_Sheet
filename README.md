@@ -1,6 +1,7 @@
 # Purpose
-Our goal is to create a common share sheet for Bible apps (starting with iOS). Imaging your reading something in YouVersion and want to get a bit more contextual information, so you open that passage in Logos. Or say you are reading a passage in NeuBible and decide you want to start memorizing it, you can open it in Verses. Or if your memorizing a passage in Verses and want to read it in context you can open it inside the ESV Bible app.
+Our goal is to create a common share sheet for Bible apps (starting with iOS). Imagine your reading a passage in YouVersion and want to get a bit more contextual information: so you open that passage in Logos. Or say you are reading a passage in NeuBible and decide you want to start memorizing it: you can open it in Verses. Or if you are memorizing a passage in Verses and want to read it in context: you can open it inside the ESV Bible app.
 
+# Goals
 While the foremost goal is to create a link between apps a secondary goal is to create a standard query that each of these schemes accepts. That way websites, etc, will be able to know how to create links that are openable within a Bible app.
 
 Ideally we would use a single urlScheme, something like bible:// but unfortunantly iOS doesnt support this. According to Apple it is "undefined as to which of the applications is picked to handle URLs of that type."
@@ -10,6 +11,8 @@ The solution then is to create a share sheet that checks for all of the register
 1) Submit your specific urlScheme here. The naming convention for this will be "bible-yourappname://"
 
 2) Commit to parsing the incoming data as well as being able to share through the action sheet. Our goal will be to put together some helper classes here for iOS to get things started.
+
+# Universal Share Sheet
 
 How then will the "common share sheet" function? It will simply go through the list of registered schemes and ask the OS which ones it can open. Only those will be shown by default. You will also have the option to specifically turn on apps which you'd like the user to see as an option regardless of whether they have them or not. If the user does not have them, they will be directed to the app store for download. This then allows certain apps to encourage their users to check out complementary apps.
 
@@ -24,6 +27,8 @@ Each listing then will need the follow:
 3) A link to the App Store.
 
 Note, that the urlScheme's query will include an "intention" variable at the end. If it is passed into the share sheet with that intention then the share sheet will scope the list to only those options.
+
+# Universal Query Format
 
 The format that we will use to pass information will support the following cases:
 
@@ -54,6 +59,7 @@ To share multiple chapters:
 To share a book:
 [Gen]
 
+# Community Status
 
 Current apps:
 
@@ -61,6 +67,7 @@ Verses - Status: Integraing, Primary Intention: Memorize, Other Intentions: nil
 
 ESV Bible - Status: Interested, Primary Intention: Read, Other Intentions: Study
 
+# Standard Naming Conventions
 
 Standard list for Books (taken from http://www.crosswire.org/wiki/OSIS_Book_Abbreviations):
 Gen 
