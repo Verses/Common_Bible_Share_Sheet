@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Gen</key><string>Genesis</string>
+		<key>Exod</key><string>Exodus</string>
+		<key>Lev</key><string>Leviticus</string>
+		<key>Num</key><string>Numbers</string>
+		<key>Deut</key><string>Deuteronomy</string>
+		<key>Josh</key><string>Joshua</string>
+		<key>Judg</key><string>Judges</string>
+		<key>Ruth</key><string>Ruth</string>
+		<key>1Sam</key><string>1 Samuel</string>
+		<key>2Sam</key><string>2 Samuel</string>
+		<key>1Kgs</key><string>1 Kings</string>
+		<key>2Kgs</key><string>2 Kings</string>
+		<key>1Chr</key><string>1 Chronicles</string>
+		<key>2Chr</key><string>2 Chronicles</string>
+		<key>Ezra</key><string>Ezra</string>
+		<key>Neh</key><string>Nehemiah</string>
+		<key>Esth</key><string>Esther[6]</string>
+		<key>Job</key><string>Job</string>
+		<key>Ps</key><string>Psalms</string>
+		<key>Prov</key><string>Proverbs</string>
+		<key>Eccl</key><string>Ecclesiastes</string>
+		<key>Song</key><string>Song of Solomon</string>
+		<key>Isa</key><string>Isaiah</string>
+		<key>Jer</key><string>Jeremiah</string>
+		<key>Lam</key><string>Lamentations</string>
+		<key>Ezek</key><string>Ezekiel</string>
+		<key>Dan</key><string>Daniel</string>
+		<key>Hos</key><string>Hosea</string>
+		<key>Joel</key><string>Joel</string>
+		<key>Amos</key><string>Amos</string>
+		<key>Obad</key><string>Obadiah</string>
+		<key>Jonah</key><string>Jonah</string>
+		<key>Mic</key><string>Micah</string>
+		<key>Nah</key><string>Nahum</string>
+		<key>Hab</key><string>Habakkuk</string>
+		<key>Zeph</key><string>Zephaniah</string>
+		<key>Hag</key><string>Haggai</string>
+		<key>Zech</key><string>Zechariah</string>
+		<key>Mal</key><string>Malachi</string>
+		<key></key><string></string>
+		<key>Matt</key><string>Matthew</string>
+		<key>Mark</key><string>Mark</string>
+		<key>Luke</key><string>Luke</string>
+		<key>John</key><string>John</string>
+		<key>Acts</key><string>Acts</string>
+		<key>Rom</key><string>Romans</string>
+		<key>1Cor</key><string>1 Corinthians</string>
+		<key>2Cor</key><string>2 Corinthians</string>
+		<key>Gal</key><string>Galatians</string>
+		<key>Eph</key><string>Ephesians</string>
+		<key>Phil</key><string>Philippians</string>
+		<key>Col</key><string>Colossians</string>
+		<key>1Thess</key><string>1 Thessalonians</string>
+		<key>2Thess</key><string>2 Thessalonians</string>
+		<key>1Tim</key><string>1 Timothy</string>
+		<key>2Tim</key><string>2 Timothy</string>
+		<key>Titus</key><string>Titus</string>
+		<key>Phlm</key><string>Philemon</string>
+		<key>Heb</key><string>Hebrews</string>
+		<key>Jas</key><string>James</string>
+		<key>1Pet</key><string>1 Peter</string>
+		<key>2Pet</key><string>2 Peter</string>
+		<key>1John</key><string>1 John</string>
+		<key>2John</key><string>2 John</string>
+		<key>3John</key><string>3 John</string>
+		<key>Jude</key><string>Jude</string>
+		<key>Rev</key><string>Revelation</string>
+		<key></key><string></string>
+		<key>Tob</key><string>Tobit</string>
+		<key>Jdt</key><string>Judith</string>
+		<key>EsthGr</key><string>Greek Esther †</string>
+		<key>AddEsth</key><string>Additions to Esther</string>
+		<key>Wis</key><string>Wisdom</string>
+		<key>SirP</key><string>Sirach Prologue †</string>
+		<key>Sir</key><string>Sirach</string>
+		<key>Bar</key><string>Baruch</string>
+		<key>EpJer</key><string>Letter of Jeremiah</string>
+		<key>DanGr</key><string>Greek Daniel †</string>
+		<key>AddDan</key><string>Additions to Daniel</string>
+		<key>PrAzar</key><string>Prayer of Azariah</string>
+		<key>Sus</key><string>Susanna</string>
+		<key>Bel</key><string>Bel and the Dragon</string>
+		<key>1Macc</key><string>1 Maccabees</string>
+		<key>2Macc</key><string>2 Maccabees</string>
+		<key>3Macc</key><string>3 Maccabees</string>
+		<key>4Macc</key><string>4 Maccabees</string>
+		<key>PrMan</key><string>Prayer of Manasseh</string>
+		<key>1Esd</key><string>1 Esdras</string>
+		<key>2Esd</key><string>2 Esdras</string>
+		<key>AddPs</key><string>Psalm 151 †</string>
+		<key></key><string></string>
+		<key>Odes</key><string>Odes †</string>
+		<key>PssSol</key><string>Psalms of Solomon</string>
+		<key></key><string></string>
+		<key>JoshA</key><string>Joshua A †</string>
+		<key>JudgB</key><string>Judges B †</string>
+		<key>TobS</key><string>Tobit S †</string>
+		<key>SusTh</key><string>Susanna θ †</string>
+		<key>DanTh</key><string>Daniel θ †</string>
+		<key>BelTh</key><string>Bel and the Dragon θ †</string>
+		<key></key><string></string>
+		<key>EpLao</key><string>Epistle to the Laodiceans</string>
+		<key>5Ezra</key><string>5 Ezra</string>
+		<key>4Ezra</key><string>4 Ezra</string>
+		<key>6Ezra</key><string>6 Ezra</string>
+		<key>PrSol</key><string>Prayer of Solomon †</string>
+		<key>PrJer</key><string>Prayer of Jeremiah †</string>
+		<key></key><string></string>
+		<key>1En</key><string>1 Enoch</string>
+		<key>Jub</key><string>Jubilees</string>
+		<key>4Bar</key><string>4 Baruch</string>
+		<key>1Meq</key><string>1 Meqabyan †</string>
+		<key>2Meq</key><string>2 Meqabyan †</string>
+		<key>3Meq</key><string>3 Meqabyan †</string>
+		<key>Rep</key><string>Reproof †</string>
+		<key>AddJer</key><string>Additions to Jeremiah</string>
+		<key>PsJos</key><string>Pseudo-Josephus †</string>
+		<key></key><string></string>
+		<key>EpCorPaul</key><string>Epistle of the Corinthians to Paul †</string>
+		<key>3Cor</key><string>3 Corinthians</string>
+		<key>WSir</key><string>Words of Sirach †</string>
+		<key>PrEuth</key><string>Prayer of Euthalius †</string>
+		<key>DormJohn</key><string>Dormition of John †</string>
+		<key>JosAsen</key><string>Joseph and Asenath</string>
+		<key>T12Patr</key><string>Testaments of the Twelve Patriarchs (composed of:)</string>
+		<key>T12Patr.TAsh</key><string>Testament of Asher</string>
+		<key>T12Patr.TBenj</key><string>Testament of Benjamin</string>
+		<key>T12Patr.TDan</key><string>Testament of Dan</string>
+		<key>T12Patr.TGad</key><string>Testament of Gad</string>
+		<key>T12Patr.TIss</key><string>Testament of Issachar</string>
+		<key>T12Patr.TJos</key><string>Testament of Joseph</string>
+		<key>T12Patr.TJud</key><string>Testament of Judah</string>
+		<key>T12Patr.TLevi</key><string>Testament of Levi</string>
+		<key>T12Patr.TNaph</key><string>Testament of Naphtali</string>
+		<key>T12Patr.TReu</key><string>Testament of Reuben</string>
+		<key>T12Patr.TSim</key><string>Testament of Simeon</string>
+		<key>T12Patr.TZeb</key><string>Testament of Zebulun</string>
+		<key></key><string></string>
+		<key>2Bar</key><string>2 Baruch</string>
+		<key>EpBar</key><string>Letter of Baruch †</string>
+		<key>5ApocSyrPss</key><string>Additional Syriac Psalms</string>
+		<key>JosephusJWvi</key><string>Josephus' Jewish War VI †</string>
+		<key></key><string></string>
+		<key>1Clem</key><string>1 Clement</string>
+		<key>2Clem</key><string>2 Clement</string>
+		<key>IgnEph</key><string>Ignatius to the Ephesians</string>
+		<key>IgnMagn</key><string>Ignatius to the Magnesians</string>
+		<key>IgnTrall</key><string>Ignatius to the Trallians</string>
+		<key>IgnRom</key><string>Ignatius to the Romans</string>
+		<key>IgnPhld</key><string>Ignatius to the Philadelphians</string>
+		<key>IgnSmyrn</key><string>Ignatius to the Smyrnaeans</string>
+		<key>IgnPol</key><string>Ignatius to Polycarp</string>
+		<key>PolPhil</key><string>Polycarp to the Philippians</string>
+		<key>MartPol</key><string>Martyrdom of Polycarp</string>
+		<key>Did</key><string>Didache</string>
+		<key>Barn</key><string>Barnabas</string>
+		<key>Herm</key><string>Shepherd of Hermas (comprised of:)</string>
+		<key>Herm.Mand</key><string>"Shepherd of Hermas</string>
+		<key>Herm.Sim</key><string>"Shepherd of Hermas</string>
+		<key>Herm.Vis</key><string>"Shepherd of Hermas</string>
+		<key>Diogn</key><string>Diognetus</string>
+		<key>AposCreed</key><string>Apostles' Creed †</string>
+		<key>PapFrag</key><string>Fragments of Papias †</string>
+		<key>RelElders</key><string>Reliques of the Elders †</string>
+		<key>QuadFrag</key><string>Fragment of Quadratus †</string>
+		<key></key><string></string>
+		<key>TatDiat</key><string>Diatessaron</string>
+		<key>PsMet</key><string>Metrical Psalms †</string>
+	</dict>
+</plist>
