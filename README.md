@@ -17,7 +17,9 @@ We will have the default style be system only. Customization will be allowed.
 Each listing then will need the follow:
 
 1) The specific urlScheme.
+
 2) An intention, currently there are 3 options: Read, Study, Memorize.
+
 3) A link to the App Store.
 
 Note, that the urlScheme's query will include an "intention" variable at the end. If it is passed into the share sheet with that intention then the share sheet will scope the list to only those options.
