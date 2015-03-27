@@ -70,178 +70,19 @@ ESV Bible - Status: Interested, Primary Intention: Read, Other Intentions: Study
 ### Standard Naming Conventions
 
 [OSIS](http://www.crosswire.org/wiki/OSIS_Book_Abbreviations) Book Abbreviation Standards:
-Gen 
-Exod 
-Lev
-Num 
-Deut 
-Josh 
-Judg 
-Ruth 
-1Sam 
-2Sam 
-1Kgs 
-2Kgs 
-1Chr 
-2Chr 
-Ezra 
-Neh
-Esth
-Job
-Ps
-Prov
-Eccl
-Song
-Isa
-Jer
-Lam
-Ezek
-Dan
-Hos
-Joel
-Amos
-Obad
-Jonah
-Mic
-Nah
-Hab
-Zeph
-Hag
-Zech
-Mal
-Matt
-Mark
-Luke
-John
-Acts
-Rom
-1Cor
-2Cor
-Gal
-Eph
-Phil
-Col
-1Thess
-2Thess
-1Tim
-2Tim
-Titus
-Phlm
-Heb
-Jas
-1Pet
-2Pet
-1John
-2John
-3John
-Jude
-Rev
+`.plist` files are available in this repo of the standardized abbreviation and full names 
 
-Tob
-Jdt
-EsthGr
-AddEsth
-Wis
-SirP
-Sir
-Bar
-EpJer
-DanGr
-AddDan
-PrAzar
-Sus
-Bel
-1Macc
-2Macc
-3Macc
-4Macc
-PrMan
-1Esd
-2Esd
-AddPs
-
-Odes
-PssSol
-
-JoshA
-JudgB
-TobS
-SusTh
-DanTh
-BelTh
-
-EpLao
-5Ezra
-4Ezra
-6Ezra
-PrSol
-PrJer
-
-1En
-Jub
-4Bar
-1Meq
-2Meq
-3Meq
-Rep
-AddJer
-PsJos
-
-EpCorPaul
-3Cor
-WSir
-PrEuth
-DormJohn
-JosAsen
-T12Patr
-T12Patr.TAsh
-T12Patr.TBenj
-T12Patr.TDan
-T12Patr.TGad
-T12Patr.TIss
-T12Patr.TJos
-T12Patr.TJud
-T12Patr.TLevi
-T12Patr.TNaph
-T12Patr.TReu
-T12Patr.TSim
-T12Patr.TZeb
-
-2Bar
-EpBar
-5ApocSyrPss
-JosephusJWvi
-
-1Clem
-2Clem
-IgnEph
-IgnMagn
-IgnTrall
-IgnRom
-IgnPhld
-IgnSmyrn
-IgnPol
-PolPhil
-MartPol
-Did
-Barn
-Herm
-Herm.Mand
-Herm.Sim
-Herm.Vis
-Diogn
-AposCreed
-PapFrag
-RelElders
-QuadFrag
-TatDiat
-PsMet
-
-Standard list for Translations:
+### Standard list for Translations:
 
 To be added.
 
 ### References
-[OSIS Wikipedia](http://en.wikipedia.org/wiki/Open_Scripture_Information_Standard) - 
-[OSIS Manual (PDF_](http://img.forministry.com/7/7B/7BB51FB8-84B3-4FF3-939ED473FA90A632/DOC/OSIS2_1UserManual_06March2006_-_with_O'Donnell_edits.PDF) - references are described on page 88
+[OSIS](http://www.crosswire.org/wiki/OSIS_Book_Abbreviations) - CrossWire Wiki
+
+[OSIS Wikipedia](http://en.wikipedia.org/wiki/Open_Scripture_Information_Standard) - General Description of OSIS
+
+[OSIS Manual (PDF)](http://img.forministry.com/7/7B/7BB51FB8-84B3-4FF3-939ED473FA90A632/DOC/OSIS2_1UserManual_06March2006_-_with_O'Donnell_edits.PDF) - references are described on page 88
+
 [Bible Passage Reference Parser](https://github.com/openbibleinfo/Bible-Passage-Reference-Parser) - javascript library for parsing text for bible references. Implements OSIS reference standard
+
+[IntentKit](https://github.com/intentkit/IntentKit) - A cocoapod that impliments similar functionality as our share sheet.
