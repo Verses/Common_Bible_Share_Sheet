@@ -1,6 +1,8 @@
 # Purpose
 Our goal is to create a common share sheet for Bible apps (starting with iOS). Imagine you're reading a passage in YouVersion and want to get a bit more contextual information: so you open that passage in Logos. Or say you are reading a passage in NeuBible and decide you want to start memorizing it: you can open it in Verses. Or if you are memorizing a passage in Verses and want to read it in context: you can open it inside the ESV Bible app.
 
+![alt tag](https://s3-us-west-2.amazonaws.com/verses-marketing/Common+Share+Sheet/IMG_3265.PNG)
+
 ## Goals
 While the foremost goal is to create a link between apps a secondary goal is to create a standard query that each of these schemes accepts. That way websites, etc, will be able to know how to create links that are openable within a Bible app.
 
