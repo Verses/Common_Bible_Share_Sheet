@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>verses</key>
+	<dict>
+		<key>iTunes-url</key>
+		<string>https://itunes.apple.com/us/app/verses-bible-memory/id939461663?ls=1&amp;mt=8</string>
+		<key>supported-intentions</key>
+		<array>
+			<string>Memorize</string>
+		</array>
+		<key>url-scheme</key>
+		<string>bible-verses</string>
+	</dict>
+</dict>
+</plist>
