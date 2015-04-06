@@ -6,23 +6,21 @@ While the foremost goal is to create a link between apps a secondary goal is to 
 
 Ideally we would use a single urlScheme, something like `bible://` but unfortunantly iOS doesnt support this. According to Apple it is "undefined as to which of the applications is picked to handle URLs of that type."
 
-The solution then is to create a share sheet that checks for all of the registered urlSchemes that adhere to the proposed format. If your Bible app wishes to join you must:
+The solution then is to create a share sheet that checks for all of the registered urlSchemes that adhere to the proposed format. If your Bible app wishes to join you are expected to integrate on both ends of sending and recieving. Practically this looks like 1) inlcuding the universal share sheet and 2) supporting the parsing of the universal query format.
 
 ### Universal Share Sheet
 
 How then will the "common share sheet" function? It will simply go through the list of registered schemes and ask the OS which ones it can open. Only those will be shown by default. You will also have the option to specifically turn on apps which you'd like the user to see as an option regardless of whether they have them or not. If the user does not have them, they will be directed to the app store for download. This then allows certain apps to encourage their users to check out complementary apps.
 
-We will have the default style be system only. Customization will be allowed.
+We will have the default style be system only (currently uses a UIActionSheet style). Customization will be allowed.
 
 Each listing then will need the follow:
 
-1. The specific urlScheme.
+1. The specific urlScheme (naming convention: bible-yourappname://).
 
-2. An intention, currently there are 3 options: Read, Study, Memorize.
+2. At least one supported intention, currently there are 4 options: Read, Study, Memorize, Listen.
 
 3. A link to the App Store.
-
-Note, that the urlScheme's query will include an "intention" variable at the end. If it is passed into the share sheet with that intention then the share sheet will scope the list to only those options.
 
 ### Universal Query Format
 
@@ -38,7 +36,7 @@ The format that we will use to pass information will support the following cases
 
 Example of the format:
 
-`bible-yourappname://intention?passages=[Gen.1.1-Gen.1.4,Gen1.8],[Exo.1.1-Exo.1.8],[Rev.1-Rev.7]&translation=ESV2011`
+`bible-yourappname://?passages=[Gen.1.1-Gen.1.4,Gen1.8],[Exo.1.1-Exo.1.8],[Rev.1-Rev.7]&translation=ESV2011&intention="Read"`
 
 To share a passage:
 `[Gen.1.1-Gen.1.4,Gen1.8]`
@@ -57,9 +55,9 @@ To share a book:
 
 ## Using
 
-1. clone this repository
-2. implement the OSIS protocol to map your internal representation of groups of verses to valid references
-3. add the CommonShareSheetHelper and BibleApp files
+1. Clone this repository
+2. Implement the OSIS protocol to map your internal representation of groups of verses to valid references
+3. Add the CommonShareSheetHelper and BibleApp files
 
 ## Contributing
 
