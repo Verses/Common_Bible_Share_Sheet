@@ -1,18 +1,14 @@
 # Purpose
-Our goal is to create a common share sheet for Bible apps (starting with iOS). Imagine your reading a passage in YouVersion and want to get a bit more contextual information: so you open that passage in Logos. Or say you are reading a passage in NeuBible and decide you want to start memorizing it: you can open it in Verses. Or if you are memorizing a passage in Verses and want to read it in context: you can open it inside the ESV Bible app.
+Our goal is to create a common share sheet for Bible apps (starting with iOS). Imagine you're reading a passage in YouVersion and want to get a bit more contextual information: so you open that passage in Logos. Or say you are reading a passage in NeuBible and decide you want to start memorizing it: you can open it in Verses. Or if you are memorizing a passage in Verses and want to read it in context: you can open it inside the ESV Bible app.
 
 ## Goals
 While the foremost goal is to create a link between apps a secondary goal is to create a standard query that each of these schemes accepts. That way websites, etc, will be able to know how to create links that are openable within a Bible app.
 
-Ideally we would use a single urlScheme, something like bible:// but unfortunantly iOS doesnt support this. According to Apple it is "undefined as to which of the applications is picked to handle URLs of that type."
+Ideally we would use a single urlScheme, something like `bible://` but unfortunantly iOS doesnt support this. According to Apple it is "undefined as to which of the applications is picked to handle URLs of that type."
 
 The solution then is to create a share sheet that checks for all of the registered urlSchemes that adhere to the proposed format. If your Bible app wishes to join you must:
 
-1) Submit your specific urlScheme here. The naming convention for this will be "bible-yourappname://"
-
-2) Commit to parsing the incoming data as well as being able to share through the action sheet. Our goal will be to put together some helper classes here for iOS to get things started.
-
-## Universal Share Sheet
+### Universal Share Sheet
 
 How then will the "common share sheet" function? It will simply go through the list of registered schemes and ask the OS which ones it can open. Only those will be shown by default. You will also have the option to specifically turn on apps which you'd like the user to see as an option regardless of whether they have them or not. If the user does not have them, they will be directed to the app store for download. This then allows certain apps to encourage their users to check out complementary apps.
 
@@ -20,15 +16,15 @@ We will have the default style be system only. Customization will be allowed.
 
 Each listing then will need the follow:
 
-1) The specific urlScheme.
+1. The specific urlScheme.
 
-2) An intention, currently there are 3 options: Read, Study, Memorize.
+2. An intention, currently there are 3 options: Read, Study, Memorize.
 
-3) A link to the App Store.
+3. A link to the App Store.
 
 Note, that the urlScheme's query will include an "intention" variable at the end. If it is passed into the share sheet with that intention then the share sheet will scope the list to only those options.
 
-## Universal Query Format
+### Universal Query Format
 
 The format that we will use to pass information will support the following cases:
 
@@ -59,13 +55,30 @@ To share multiple chapters:
 To share a book:
 `[Gen]`
 
-### Community Status
+## Using
 
-Current apps:
+1. clone this repository
+2. implement the OSIS protocol to map your internal representation of groups of verses to valid references
+3. add the CommonShareSheetHelper and BibleApp files
 
-Verses - Status: Integraing, Primary Intention: Memorize, Other Intentions: nil
+## Contributing
 
-ESV Bible - Status: Interested, Primary Intention: Read, Other Intentions: Study
+Obviously this initiative only works with community buy-in. To include your app in the project:
+
+1. Fork the [repo]( https://github.com/Verses/Common_Bible_Share_Sheet/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+  1. add your custom url scheme, supported intentions, and iTunes url to `apps.plist`
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+
+## Roadmap
+- [ ] v0.6 - working share sheet
+- [ ] v0.7 - restructure to use plist for all supported apps and intentions
+- [ ] v0.8 - OSIS parsing and generation helpers
+- [ ] v0.9 - working share sheet with multiple apps
+- [ ] v1.0 - convert repository to cocoapod for easy inclusion and version management in projects
 
 ### Standard Naming Conventions
 
